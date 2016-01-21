@@ -5,7 +5,7 @@ var AmountBox = React.createClass({
       <div className="col-md-4">
         <div className={panel_class}>
           <div className="panel-heading">{this.props.text}</div>
-          <div className="panel-body">{amountFormat(his.props.amount)}</div>
+          <div className="panel-body">{amountFormat(this.props.amount)}</div>
         </div>
       </div>
     )
